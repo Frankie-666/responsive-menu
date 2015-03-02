@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Simple Responsive Menu Demo</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="script.js"></script>
+</head>
+<body>
+
+<h3 style="font-family:arial; font-weight:bold; font-size:30px; text-align:center; border-bottom:1px dashed #ccc;  padding:0 0 20px 0; line-height:38px;"><a style="text-decoration:none; color:#666;" href="http://fearlessflyer.com/build-a-simple-responsive-navigation-menu-from-scratch/">Simple Responsive Navigation Menu <br>with jQuery and CSS <span style="color:red;">Demo</span>:</a></h3>
+<p style="padding:0px 0 10px 0; font-style:italic; font-family:Georgia; font-size:14px; line-height:21px; text-align:center;">Resize the browser to at least 700 pixels. See the problem with the "Non responsive" menu,<br /> while the "Yes responsive" menu does okay. 
+Click <strong><a style="color:red" href="http://fearlessflyer.com/build-a-simple-responsive-navigation-menu-from-scratch/">Here</a></strong> to go back to the tutorial</p>
+
+
+<div class="main">
+<h3>Non responsive:</h3>
+<div class="navigation">
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Page One</a></li>
+	<li><a href="#">Page Two</a></li>
+	<li><a href="#">Page Three</a></li>
+	<li><a href="#">Sitemap</a></li>
+</ul>
+</div>
+<div style="display:block;clear:both; height:25px;"></div>
+
+<h3>Yes responsive:</h3>
+<div class="navigation responsive">
+<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Blog</a></li>
+	<li><a href="#">Contact</a></li>
+	<li><a href="#">Page One</a></li>
+	<li><a href="#">Page Two</a></li>
+	<li><a href="#">Page Three</a></li>
+	<li><a href="#">Sitemap</a></li>
+	<li class="hidden trigger"><a rel="nofollow" href="#">Show Menu</a></li>
+</ul>
+</div>
+<div class="mini-navigation hidden"></div>
+
+</body>
+</html>
