@@ -6,7 +6,7 @@ A simple script that makes Navigation (list items) work in responsive mode. Publ
 This is the code from this tutorial: 
 
 Build a Simple Responsive Navigation Menu from scratch with jQuery and CSS
-http://fearlessflyer.com/build-a-simple-responsive-navigation-menu-from-scratch/
+http://michaelsoriano.com/build-a-simple-responsive-navigation-menu-from-scratch/
 
 To view the demo: 
-http://demo.fearlessflyer.com/html/demo/responsive-menu/
+https://rawgit.com/michaelsoriano/responsive-menu/master/index.html
